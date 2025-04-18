@@ -21,6 +21,14 @@ git commit -m "feat: выбор карта или монета в начале"
 7. Пятый коммит — добавлены комментарии для проверяющего
 git commit -am "chore: добавил заметки для проверяющего (пароль и номер карты)"
 
+8. Создание новой ветки для выполнения задания git checkout -b home_work_25
+
+9. Переход на ветку master git checkout master
+
+10. Получение ветки home_work_25 с удалённого репозитория git fetch origin home_work_25:home_work_25
+
+11. Слияние ветки home_work_25 в master git merge home_work_25
+
 Дополнительно — проверка текущего состояния
 git status
 
